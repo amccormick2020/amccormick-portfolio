@@ -1,0 +1,22 @@
+services:
+  js-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8001:3000"  # Expose app on localhost:8000
+    restart: always
+    init: true
+    volumes:
+      - type: bind
+        source: .
+        target: /app
+    # env_file: ./.env  # Uncomment if .env file exists
+    # No external dependencies detected
+    # No volumes required (static site)
+    # For custom environment variables, add an 'environment:' block here
+    # For more advanced configuration, see README.Docker.md
+
+# No external services (database, cache, etc.) detected in documentation or source
+# No volumes section needed (no persistent data required)
+# No custom networks required (single service)
