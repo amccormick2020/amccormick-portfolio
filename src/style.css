@@ -255,19 +255,27 @@ button:focus {
 }
 
 .home-section {
+  
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  
 }
 
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
+  /* Use a flexible min-height so the home page participates in the App flex layout.
+     Subtract an estimated navbar height so the footer can be pushed to the bottom.
+     This prevents layout issues when the window is resized. */
+  min-height: calc(100vh - 1.4vh);
+  
 }
 
 .heading {
@@ -338,6 +346,7 @@ button:focus {
 }
 
 .home-about-social {
+
   text-align: center !important;
   padding-top: 25px;
   color: white !important;
@@ -405,8 +414,9 @@ button:focus {
 .footer {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-top: 0.7662835249042146vh !important;
+  padding-bottom: 0.6130268199233716vh !important ;
+  margin-top: auto !important;
 }
 
 /* Ensure footer sticks to the bottom when page content is short */
@@ -416,9 +426,7 @@ button:focus {
   min-height: 100vh !important;
 }
 
-.footer {
-  margin-top: auto !important;
-}
+
 .footer-copywright {
   text-align: center !important;
 }
@@ -459,6 +467,7 @@ button:focus {
 /* --------- */
 
 .education-section {
+  flex: 1;
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
@@ -492,6 +501,7 @@ button:focus {
 /* --------- */
 
 .experience-section {
+  flex: 1;
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
@@ -524,6 +534,7 @@ button:focus {
 /* Projects */
 /* --------- */
 .project-section {
+  flex: 1;
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;

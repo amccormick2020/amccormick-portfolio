@@ -7,6 +7,8 @@ I built this application using the following:
 - React.js
 - Node.js
 - Docker
+- AWS
+
 
 You can access it at the following link
 <>
