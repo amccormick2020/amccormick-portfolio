@@ -11,7 +11,7 @@ I built this application using the following:
 
 
 You can access it at the following link
-<>
+austin-mccormick.com
 
 To build and view my portfolio locally using Docker, run the following from the project directory:
 1) docker build -t portfolio .
