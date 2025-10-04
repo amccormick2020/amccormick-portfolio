@@ -1,5 +1,5 @@
-Welcome to my Software Engineering Portfolio Web App! 
-You can access it at the following link:
+Welcome to my Software Engineering Portfolio Web App! You can access it at the following link:
+
 http://austin-mccormick.com
 
 My portfolio features the SWE skills I've picked up along with my education, professional experience, projects, and resume.
