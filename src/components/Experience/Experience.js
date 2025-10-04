@@ -13,33 +13,33 @@ function Experience() {
         </h1>
 
         {/* Oracle Internship #1 */}
-        <Row style={{ justifyContent: "center", marginBottom: "30px" }}>
+        <Row style={{ justifyContent: "center", marginBottom: "3.1746031746031744vh" }}>
           <Col md={10}>
             <Card className="card-view">
               <Card.Body>
                 <Row>
-                  <Col md={2} className="d-flex align-items-start justify-content-center">
+                  <Col md={2} className="d-flex align-items-center justify-content-center">
                     <div
                       style={{
                         backgroundColor: "white",
                         borderRadius: "50%",
-                        padding: "10px",
+                        padding: "1vh",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        width: "125px",
-                        height: "125px",
+                        width: "10vh",
+                        height: "10vh",
                       }}
                     >
                       <SiOracle size={95} color="#C74634" />
                     </div>
                   </Col>
                   <Col md={10}>
-                    <Card.Title>
+                    <Card.Title style={{fontSize: "x-large"}}>
                       <strong>Oracle</strong>
                     </Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">
-                      Software Engineering Intern | May 2025 - August 2025
+                    <Card.Subtitle className="card-sub">
+                      Software Engineering Intern &nbsp; | &nbsp; May 2025 - August 2025
                     </Card.Subtitle>
                     <Card.Text>
                       <ul style={{ textAlign: "left" }}>
@@ -57,33 +57,33 @@ function Experience() {
         </Row>
 
         {/* Oracle Internship #2 */}
-        <Row style={{ justifyContent: "center", marginBottom: "30px" }}>
+        <Row style={{ justifyContent: "center", marginBottom: "3.1746031746031744vh" }}>
           <Col md={10}>
             <Card className="card-view">
               <Card.Body>
                 <Row>
-                  <Col md={2} className="d-flex align-items-start justify-content-center">
+                  <Col md={2} className="d-flex align-items-center justify-content-center">
                     <div
                       style={{
                         backgroundColor: "white",
                         borderRadius: "50%",
-                        padding: "10px",
+                        padding: "1vh",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        width: "125px",
-                        height: "125px",
+                        width: "10vh",
+                        height: "10vh",
                       }}
                     >
                       <SiOracle size={95} color="#C74634" />
                     </div>
                   </Col>
                   <Col md={10}>
-                    <Card.Title>
+                    <Card.Title style={{fontSize: "x-large"}}>
                       <strong>Oracle</strong>
                     </Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">
-                      Software Engineering Intern | May 2024 - August 2024
+                    <Card.Subtitle className="card-sub">
+                      Software Engineering Intern &nbsp; | &nbsp; May 2024 - August 2024
                     </Card.Subtitle>
                     <Card.Text>
                       <ul style={{ textAlign: "left" }}>
@@ -102,41 +102,41 @@ function Experience() {
         </Row>
 
         {/* Texas A&M Student Worker */}
-        <Row style={{ justifyContent: "center", marginBottom: "30px" }}>
+        <Row style={{ justifyContent: "center", marginBottom: "3.1746031746031744vh" }}>
           <Col md={10}>
             <Card className="card-view">
               <Card.Body>
                 <Row>
-                  <Col md={2} className="d-flex align-items-start justify-content-center">
+                  <Col md={2} className="d-flex align-items-center justify-content-center">
                     <div
                       style={{
                         backgroundColor: "white",
                         borderRadius: "50%",
-                        padding: "10px",
+                        padding: "1vh",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        width: "125px",
-                        height: "125px",
+                        width: "10vh",
+                        height: "10vh",
                       }}
                     >
                       <img
                         src={tamuLogo}
                         alt="Texas A&M"
                         style={{
-                          width: "75px",
-                          height: "75px",
+                          width: "7.0vh",
+                          height: "7.0vh",
                           objectFit: "contain",
                         }}
                       />
                     </div>
                   </Col>
                   <Col md={10}>
-                    <Card.Title>
+                    <Card.Title style={{fontSize: "x-large"}}>
                       <strong>Institute for Engineering Education and Innovation</strong>
                     </Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">
-                      Student Worker | May 2022 - June 2023
+                    <Card.Subtitle className="card-sub">
+                      Student Worker &nbsp; | &nbsp; May 2022 - June 2023
                     </Card.Subtitle>
                     <Card.Text>
                       <ul style={{ textAlign: "left" }}>

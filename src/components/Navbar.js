@@ -3,11 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/AM.png";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -54,7 +51,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome style={{ marginBottom: "0.21164021164021163vh" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -64,7 +61,7 @@ function NavBar() {
                 to="/education"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Education
+                <AiOutlineUser style={{ marginBottom: "0.21164021164021163vh" }} /> Education
               </Nav.Link>
             </Nav.Item>
 
@@ -74,7 +71,7 @@ function NavBar() {
                 to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Experience
+                <AiOutlineUser style={{ marginBottom: "0.21164021164021163vh" }} /> Experience
               </Nav.Link>
             </Nav.Item>
 
@@ -85,7 +82,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
+                  style={{ marginBottom: "0.21164021164021163vh" }}
                 />{" "}
                 Projects
               </Nav.Link>
@@ -97,7 +94,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "0.21164021164021163vh" }} /> Resume
               </Nav.Link>
             </Nav.Item>
           </Nav>

@@ -11,8 +11,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
   return (
-    <section>
-      <Container fluid className="home-section" id="home">
+    <section className="home-section">
+      <Container id="home">
         <Particle />
         <Container className="home-content">
           <Row>
@@ -40,12 +40,11 @@ function Home() {
               
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5}>
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                className="img-fluid home-logo"
               />
             </Col>
           </Row>
@@ -72,7 +71,7 @@ function Home() {
                             rel="noreferrer"
                             className="icon-colour  home-social-icons"
                           >
-                            <FaLinkedinIn />
+                            <FaLinkedinIn/>
                           </a>
                         </li>
                         <li className="social-icons">
