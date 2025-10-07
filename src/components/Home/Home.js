@@ -3,10 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Type from "./Type";
-import {
-  AiFillGithub,
-  AiOutlineGoogle,
-} from "react-icons/ai";
+import {AiFillGithub, AiOutlineGoogle} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
@@ -58,7 +55,7 @@ function Home() {
                           <a
                             href="https://github.com/amccormick2020"
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                             className="icon-colour  home-social-icons"
                           >
                             <AiFillGithub />
@@ -66,9 +63,9 @@ function Home() {
                         </li>
                         <li className="social-icons">
                           <a
-                            href="https://www.linkedin.com/in/soumyajit4419/"
+                            href="https://www.linkedin.com/in/austin-mccormick-148044248/"
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                             className="icon-colour  home-social-icons"
                           >
                             <FaLinkedinIn/>

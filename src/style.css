@@ -269,7 +269,6 @@ button:focus {
   min-height: 0;
   flex: 1;
   position: relative;
-  z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: center;
   background-repeat:no-repeat;
@@ -496,6 +495,7 @@ button:focus {
 }
 
 .card-view {
+  backdrop-filter: blur(100px) saturate(120%);
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
@@ -508,7 +508,29 @@ button:focus {
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
+.show-credential-button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 9999px; /* fully rounded */
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  color: black;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+.show-credential-button:hover {
+  background-color: #f7f7f7;
+}
 
+.show-credential-button svg {
+  margin-left: 4px;
+}
 /* --------- */
 /* Experience */
 /* --------- */
