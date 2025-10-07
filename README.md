@@ -1,4 +1,6 @@
-Welcome to my Software Engineering Portfolio Web App! 
+Welcome to my Software Engineering Portfolio Web App! You can access it at the following link:
+
+http://austin-mccormick.com
 
 My portfolio features the SWE skills I've picked up along with my education, professional experience, projects, and resume.
 
@@ -8,10 +10,6 @@ I built this application using the following:
 - Node.js
 - Docker
 - AWS
-
-
-You can access it at the following link
-austin-mccormick.com
 
 To build and view my portfolio locally using Docker, run the following from the project directory:
 1) docker build -t portfolio .
