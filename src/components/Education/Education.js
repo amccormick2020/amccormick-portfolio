@@ -188,19 +188,21 @@ function Education() {
                   <Col className={"roboto-chars purple"}>
                     Issue Date: August 2024
                   </Col>
-                  
+                  <Col>
+                    <a
+                  href={"https://catalog-education.oracle.com/ords/certview/sharebadge?id=C105B7E49569E53C3336C537FD02AA90CAACB9044759AB74C6BFEDF98B79ECBB"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="show-credential-button"
+                    >
+                    Show credential&nbsp;
+                    <FiExternalLink size={16} />
+                  </a>
+                </Col>
                 </Row>
                 </Col>
                 </Row>
-                <a
-              href={"https://catalog-education.oracle.com/ords/certview/sharebadge?id=C105B7E49569E53C3336C537FD02AA90CAACB9044759AB74C6BFEDF98B79ECBB"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="show-credential-button"
-            >
-              Show credential&nbsp;
-              <FiExternalLink size={16} />
-              </a>
+
               </Card.Body>
             </Card>
           </Col>
@@ -246,20 +248,21 @@ function Education() {
                   <Col className={"roboto-chars purple"}>
                     Issue Date: July 2024
                   </Col>
-                  
+                  <Col>
+                    <a
+                      href={"https://catalog-education.oracle.com/ords/certview/sharebadge?id=723F246D7682245B0AC8EBB08B84CD7565BDCBB701EB292AF9B9507AF86AF13B"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="show-credential-button"
+                    >
+                      Show credential&nbsp;
+                      <FiExternalLink size={16} />
+                    </a>
+                  </Col>
                 </Row>
                 </Col>
                 
                 </Row>
-                <a
-              href={"https://catalog-education.oracle.com/ords/certview/sharebadge?id=723F246D7682245B0AC8EBB08B84CD7565BDCBB701EB292AF9B9507AF86AF13B"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="show-credential-button"
-            >
-              Show credential&nbsp;
-              <FiExternalLink size={16} />
-              </a>
               </Card.Body>
             </Card>
           </Col>
