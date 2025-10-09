@@ -10,7 +10,13 @@ function Projectcard(props) {
 
       {/* Project Image */}
       <Card.Img src={props.imgPath} alt="card-img" />
-      <Card.Body>
+      <Card.Body
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between", // pushes bottom row to bottom
+          flexGrow: 1, // make body fill vertical space
+        }}>
 
         {/* Project Title */}
         <Card.Title style={{ fontSize: "1.5rem", fontWeight: "bold" }}>{props.title}</Card.Title>
@@ -39,7 +45,7 @@ function Projectcard(props) {
           {props.description}
         </Card.Text>
 
-        <Row>
+        <Row style={{marginTop: "auto"}}>
         {/* Project Timestamp */}
         <Col className="d-flex align-items-center">
           <span className="roboto-chars purple" style={{ fontSize: "1.2rem" }}>
