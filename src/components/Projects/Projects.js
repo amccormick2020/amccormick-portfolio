@@ -2,9 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCard";
-import {AiFillGithub} from "react-icons/ai";
-import portfolio from "../../Assets/projects/thumbnail.png";
-import workout from "../../Assets/projects/workout.png"; 
+import portfolio from "../../Assets/Projects/thumbnail.png";
+import workout from "../../Assets/Projects/workout.png";
+import roadsign from "../../Assets/Projects/roadsign.png"; 
+import loading from "../../Assets/Projects/loading.gif";
 
 function Projects() {
   return (
@@ -40,12 +41,31 @@ function Projects() {
 
           <Col md={4}>
           <ProjectCard
+            timestamp="November 2024"
+            imgPath={roadsign}
+            title="RoadSign Detector"
+            description="Detects and classifies stop signs using heuristics and sketch recognition techniques rather than a deep learning model for faster computations and lower memory requirements."
+            ghLink="https://github.com/amccormick2020/RoadSign-Detector"
+            tags={["Python", "OpenCV", "Ngrok", "Steamlit", "Image Processing"]}
+          />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", marginBottom: "3.1746031746031744vh" }}>
+          <Col md={4}>
+          <ProjectCard
             timestamp="NA"
+            imgPath={loading}
             title="In Progress"
             description="In the process of adding more projects! View the rest of my public projects on my GitHub page."
             ghLink="https://github.com/amccormick2020/"
             
           />
+
+          </Col>
+          <Col md={4}>
+          </Col>
+
+          <Col md={4}>
           </Col>
         </Row>
       </Container>
