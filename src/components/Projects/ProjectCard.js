@@ -16,7 +16,7 @@ function Projectcard(props) {
         <Card.Title style={{ fontSize: "1.5rem", fontWeight: "bold" }}>{props.title}</Card.Title>
 
         {/* Project Tags */}
-        <div style={{ margin: "1.5vh" }}>
+        <div style={{ marginTop: "1.5vh", marginBottom: "1.5vh" }}>
             {props.tags?.map((tag, index) => (
               <Badge
                 key={index}
@@ -35,7 +35,7 @@ function Projectcard(props) {
             </div>
 
         {/* Project Description */}
-        <Card.Text className="r" style={{ textAlign: "justify" }}>
+        <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
 
