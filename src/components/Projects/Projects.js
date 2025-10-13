@@ -4,7 +4,8 @@ import Particle from "../Particle";
 import ProjectCard from "./ProjectCard";
 import portfolio from "../../Assets/Projects/thumbnail.png";
 import workout from "../../Assets/Projects/workout.png";
-import roadsign from "../../Assets/Projects/roadsign.png"; 
+import roadsign from "../../Assets/Projects/roadsign.png";
+import chess from "../../Assets/Projects/chess.png";
 import loading from "../../Assets/Projects/loading.gif";
 
 function Projects() {
@@ -33,7 +34,7 @@ function Projects() {
             timestamp="April 2025"
             imgPath={workout}
             title="Exercise Plan Recommender"
-            description="Workout assistant leveraging large language models and ranked retrieval to recommend relevant exercises or generate a workout plan based on user input, saved user preferences, and the user's history."
+            description="Workout assistant leveraging large language models and ranked retrieval. Recommends relevant exercises or generates a workout plan based on user input, saved user preferences, and the user's history."
             ghLink="https://github.com/amccormick2020/Buff-Aggie"
             tags={["Python", "LangGraph", "SQLite", "Streamlit", "AI", "LLMs", "Information Retrieval"]}
           />
@@ -43,14 +44,27 @@ function Projects() {
           <ProjectCard
             timestamp="November 2024"
             imgPath={roadsign}
-            title="RoadSign Detector"
-            description="Detects and classifies stop signs using heuristics and sketch recognition techniques rather than a deep learning model for faster computations and lower memory requirements."
+            title="Road Sign Detector"
+            description="Detects and classifies road signs using heuristics and sketch recognition techniques rather than a deep learning model for faster computations and lower memory requirements."
             ghLink="https://github.com/amccormick2020/RoadSign-Detector"
             tags={["Python", "OpenCV", "Ngrok", "Steamlit", "Image Processing"]}
           />
           </Col>
         </Row>
+        
         <Row style={{ justifyContent: "center", marginBottom: "3.1746031746031744vh" }}>
+
+          <Col md={4}>
+          <ProjectCard
+            timestamp="May 2024"
+            imgPath={chess}
+            title="Smart Chessboard"
+            description="This project is a physical chess board that detects when pieces are picked up and shows the user all possible moves for a given piece with the current state of the board."
+            ghLink="https://github.com/amccormick2020/SmartChess"
+            tags={["Python", "Circuit Design", "Embedded Systems Design"]}
+          />
+          </Col>
+
           <Col md={4}>
           <ProjectCard
             timestamp="NA"
@@ -61,8 +75,6 @@ function Projects() {
             
           />
 
-          </Col>
-          <Col md={4}>
           </Col>
 
           <Col md={4}>
